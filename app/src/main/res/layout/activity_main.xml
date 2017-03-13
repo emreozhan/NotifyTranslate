@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.emre111111.clip.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:layout_alignParentTop="true"
+        android:layout_alignEnd="@+id/btnEmre"
+        android:id="@+id/textView2" />
+
+    <Button
+        android:text="Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnEmre"
+        android:layout_marginTop="136dp"
+        android:elevation="0dp"
+        android:onClick="noneerertrt"
+        android:layout_below="@+id/testmetni"
+        android:layout_alignEnd="@+id/testmetni"
+        android:layout_marginEnd="48dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Name"
+        android:ems="10"
+        android:layout_marginStart="32dp"
+        android:id="@+id/testmetni"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="35dp" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/testmetni"
+        android:layout_toStartOf="@+id/btnEmre"
+        android:layout_marginTop="57dp"
+        android:id="@+id/tvYapistir" />
+
+    <TextView
+        android:text="PosT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_marginBottom="63dp"
+        android:id="@+id/tvpost" />
+
+    <Button
+        android:text="Json Getir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tvpost"
+        android:layout_alignEnd="@+id/testmetni"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="37dp"
+        android:id="@+id/btnjson" />
+
+</RelativeLayout>
